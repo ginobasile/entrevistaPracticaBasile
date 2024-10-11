@@ -21,7 +21,7 @@ describe('Validar cuotas y filtros en la web de Movistar', ()=>{
             cy.get('tr').should('contain', '3 cuotas')
         });
 
-        //cy.screenshot('Contiene 3 cuotas');
+        cy.screenshot('Contiene 3 cuotas');
         
     });
 
